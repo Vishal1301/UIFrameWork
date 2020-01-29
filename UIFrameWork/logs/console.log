@@ -1,0 +1,30 @@
+2020-01-29 11:01:17 INFO  PropertiesCache:22 - java.io.BufferedInputStream@2f7c7260
+2020-01-29 11:01:17 INFO  PropertiesCache:23 - Read all the configurations from  file
+2020-01-29 11:01:17 INFO  ExtentManager:83 - Directory already exists: C:\Users\rh0340\Desktop\TestUI\UIFrameWork\TestReport
+2020-01-29 11:01:17 INFO  ExtentManager:64 - ExtentReport Path for WINDOWS: C:\Users\rh0340\Desktop\TestUI\UIFrameWork\TestReport
+
+2020-01-29 11:01:17 INFO  TestBase:53 - :::::::::::::::::::: Launching webdriver ::::::::::::::::::::
+2020-01-29 11:01:17 INFO  TestBase:58 -  =================================================== 
+2020-01-29 11:01:17 INFO  TestBase:59 - Url is :: https://clubkitchen.at
+2020-01-29 11:01:17 INFO  TestBase:60 -  =================================================== 
+2020-01-29 11:01:32 INFO  TestListener:33 - Test Suite started!
+2020-01-29 11:01:33 INFO  TestBase:103 - Testcase name is :::::: mamacitaAddtoCart
+2020-01-29 11:01:33 INFO  TestBase:104 - mamacitaAddtoCart Started ::::
+2020-01-29 11:01:33 INFO  TestListener:77 - mamacitaAddtoCart started!
+2020-01-29 11:01:33 INFO  TestBase:103 - Element is displayed Agree cookies button
+2020-01-29 11:02:01 INFO  TestBase:64 - Exception occured while clicking on mamacita logo buttonorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title='Mamacita' and @class = 'navigation--link logo--link  mamacita']"}
+  (Session info: chrome=79.0.3945.130)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'ALIPL5254', ip: '192.168.43.118', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}), userDataDir=C:\Users\rh0340\AppData\Local\Temp\scoped_dir9004_1301967203}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59267}, acceptInsecureCerts=false, browserVersion=79.0.3945.130, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true}]
+Session ID: fc213ac504e51b37f221024c9741a8a3
+*** Element info: {Using=xpath, value=//*[@title='Mamacita' and @class = 'navigation--link logo--link  mamacita']}
+2020-01-29 11:02:19 INFO  TestListener:89 - Test casemamacitaAddtoCart passed!
+2020-01-29 11:02:19 INFO  TestBase:112 - Testcase execution completed :::::: mamacitaAddtoCart
+2020-01-29 11:02:19 INFO  TestBase:95 - Tests Ended from class :::::MamacitaCartTest
+2020-01-29 11:02:19 INFO  TestListener:60 - Congrats, All test cases are passed
+2020-01-29 11:02:19 INFO  TestListener:62 - Test Suite is ending!
+2020-01-29 11:02:19 INFO  TestBase:119 - Logger Info:: Inside suiteEndReached Method
+2020-01-29 11:02:19 INFO  TestBase:120 - Suite ended
